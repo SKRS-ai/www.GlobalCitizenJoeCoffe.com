@@ -1,4 +1,4 @@
-# www.GlobalCitizenJoeCoffe.com
+# www.GlobalCitizenJoeCoffee.com
 Global Citizen Joe LLC is a registered entity capable of fulfilling large-scale beverage procurement, emergency relief liquid supplies, and international logistics consulting. We provide:
 📄 README: Global Citizen Joe (GCJ) Digital Ecosystem
 This repository/project contains the structural framework, content strategy, and revenue-driving architecture for the Global Citizen Joe LLC web platform. The site is designed to function as a high-authority beverage brand, a government contracting portal, and an automated certification clearinghouse.
