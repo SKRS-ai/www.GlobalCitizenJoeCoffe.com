@@ -88,3 +88,65 @@ footer {
 }
 
 .footer-logo { height: 50px; margin-bottom: 20px; }
+/* Community Specific Styles */
+.impact-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('community-bg.jpg');
+    background-size: cover;
+    color: white;
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.gold-text { color: var(--primary-gold); }
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.event-card {
+    background: var(--light-grey);
+    padding: 30px;
+    border-top: 4px solid var(--primary-gold);
+    transition: transform 0.3s;
+}
+
+.event-card:hover { transform: translateY(-10px); }
+
+.innovation-section {
+    background: var(--deep-coffee);
+    color: white;
+    padding: 80px 10%;
+}
+
+.split-view {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.innovation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.innovation-list li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.innovation-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-gold);
+}
+
+.cta-final {
+    padding: 100px 10%;
+    text-align: center;
+    background: var(--white);
+}
